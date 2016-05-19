@@ -21,22 +21,49 @@
     	padding-bottom: 5px;
     	padding-top: 5px;
     	font-size: 24px; 
+    	border-radius: 5px;
 }
 #Sidebar {
 	display: inline-block;
 	height: 320px;
-	width: 33%;
+	width: 49%;
 	margin: 0.5%;
+	margin-right: 0.5%;
+	padding: 20px;
+	position: relative;
 }
 #Content {
 	display: inline-block;
 	height: 320px;
-	width: 66%;
+	width: 49%;
 	margin: 0.5%;
+	margin-left: 0.5%;
+	position: relative;
+	padding: 20px;
+}
+div {
+		box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+							-moz-box-sizing: border-box;
+}
+p {font-size: 11px;
+	text-align: left;
+margin-bottom: 50px;
+}
+#linkToTop {
+	position: absolute;
+	bottom: 10px;
+    right: -80px;   /*experiment with other values*/
+}
+#sideLinkToTop {
+	position: absolute;
+	bottom: 10px;
+    left: -80px; 
 }
 	</style>
-}
-}
+
+
+
 </head>
 <body>
 <div id="container">
@@ -45,9 +72,15 @@
 	</div>
     <div class="box" id="Sidebar" >
     	<h2 >Sidebar</h2>
+    	<p>Lorem ipsum dolor sit amet, mei recusabo honestatis ad, sonet ubique id nam. Et enim rationibus intellegam nam. Est facilis iracundia an, te dolorum voluptaria qui. Duo adolescens eloquentiam no, inermis delectus referrentur vel ad. Vix inani ceteros periculis an, pri perpetua dissentias interpretaris et, fugit audiam eleifend sit in. Ei wisi rebum aeterno mei, ex vis vivendo interesset.</p>
+    	<p>Lorem ipsum dolor sit amet, mei recusabo honestatis ad, sonet ubique id nam. Et enim rationibus intellegam nam. Est facilis iracundia an, te dolorum voluptaria qui. Duo adolescens eloquentiam no, inermis delectus referrentur vel ad. Vix inani ceteros periculis an, pri perpetua dissentias interpretaris et, fugit audiam eleifend sit in. Ei wisi rebum aeterno mei, ex vis vivendo interesset.</p>
+    	<img id="sideLinkToTop" src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png">
     </div>
     <div class="box" id="Content">
     	<h2  >Content</h2>
+    	<p>Lorem ipsum dolor sit amet, mei recusabo honestatis ad, sonet ubique id nam. Et enim rationibus intellegam nam. Est facilis iracundia an, te dolorum voluptaria qui. Duo adolescens eloquentiam no, inermis delectus referrentur vel ad. Vix inani ceteros periculis an, pri perpetua dissentias interpretaris et, fugit audiam eleifend sit in. Ei wisi rebum aeterno mei, ex vis vivendo interesset.</p>
+    	<p>Lorem ipsum dolor sit amet, mei recusabo honestatis ad, sonet ubique id nam. Et enim rationibus intellegam nam. Est facilis iracundia an, te dolorum voluptaria qui. Duo adolescens eloquentiam no, inermis delectus referrentur vel ad. Vix inani ceteros periculis an, pri perpetua dissentias interpretaris et, fugit audiam eleifend sit in. Ei wisi rebum aeterno mei, ex vis vivendo interesset.</p>
+    	<img id="linkToTop" src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png">
     </div>
     <div class="box">
     	<h2>Footer</h2>
