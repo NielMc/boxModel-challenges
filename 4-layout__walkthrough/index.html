@@ -51,6 +51,7 @@ div {
 		box-sizing: border-box;
 			-webkit-box-sizing: border-box;
 							-moz-box-sizing: border-box;
+                            /* border-box prevents worrying about margin and padding*/
 }
 p {font-size: 11px;
 	text-align: left;
@@ -58,8 +59,8 @@ margin-bottom: 50px;
 
 }
 #linkToTop {
-	position: fixed;
-	bottom: 80px;
+	position: fixed; /*remain fixed wrt browser window as page is scrolled*/
+	bottom: 80px;      /* 80px from bottom of window*/
     right: 80px;   /*experiment with other values*/
 }
 #sideLinkToTop {
@@ -76,8 +77,9 @@ margin-bottom: 50px;
     padding: 10px;
     border-radius: 10px;  
     font-size: 24px;
-    z-index: 100;
+    z-index: 100; /* higher indice overlaps lower*/
 }
+ 
 	</style>
 
 </head>

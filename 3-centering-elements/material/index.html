@@ -1,30 +1,37 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Box Model</title>
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		<style type="text/css">
+<head>
+	<meta charset="utf-8" />
+	<title>Box Model</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/normalize/3.0.3/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<style type="text/css">
 
-			#container
-			{
-				width:600px;	/*to center an element it must have a width smaller than its container*/
-				background-color:#AA4639;
-			}
-			.box{
-				width: 200px;
-				height: 150px;
-				background-color: #81BBC9;
-			}
-			h1{
-				font-family: Roboto;
-  			}
+		#container
+		{
+			width:600px;	/*to center an element it must have a width smaller than its container*/
+			background-color:#AA4639;
 
-		</style>
-	</head>
-	<body>
-		<div id="container">
-			<div class="box"><h1>HOLA</h1></div>
-		</div>
-	</body>
+			margin-right: 0px;
+			margin-left: auto;
+		}
+		.box{
+			width: 200px;
+			height: 150px;
+			background-color: #81BBC9;
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		h1{
+			font-family: Roboto;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="box"><h1>HOLA <br> <span style="color:white">Niel</span> </h1></div>
+	</div>
+</body>
 </html>
